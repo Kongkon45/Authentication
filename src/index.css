@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #202020;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    background-color: #303030;
+    width: 400px;
+    height: 60vh;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#signup h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#signup input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: #202020;
+}
+#signup p{
+    width: 100%;
+    text-align: left;
+    font-size: 0.9rem;
+
+}
+#signup button{
+    background-color: crimson;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+}
